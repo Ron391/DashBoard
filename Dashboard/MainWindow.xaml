@@ -1,0 +1,191 @@
+﻿<Window x:Class="Dashboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dashboard"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="900" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="500" VerticalAlignment="Top" Width="900">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.982,0.5" StartPoint="0.023,0.5">
+                    <GradientStop Color="#FF000040" Offset="1"/>
+                    <GradientStop Color="#FF010121"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="500" VerticalAlignment="Top" Width="89">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.898,0.52" StartPoint="-0.001,0.521">
+                    <GradientStop Color="#FF050546" Offset="0"/>
+                    <GradientStop Color="#FF02024F" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Path Data="M191.5,89.5 L172.5,100.5 172.5,120 191.5,130.5 210.5,120.5 210.5,100 z" Fill="#FF4777F5" HorizontalAlignment="Left" Height="50.711" Margin="21,16,0,0" Stretch="Fill" VerticalAlignment="Top" Width="47"/>
+        <Image HorizontalAlignment="Left" Height="31.5" Margin="28.5,26,0,0" VerticalAlignment="Top" Width="31.5" Source="icons8-fan-speed-100.png"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="31.5,128,0,0" VerticalAlignment="Top" Width="25" Source="icons8-dashboard-52.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="0,156,0,0" TextWrapping="Wrap" Text="Dashboard" VerticalAlignment="Top" Width="89" Foreground="#FFFDFDFD" TextAlignment="Center"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="31.5,196,0,0" VerticalAlignment="Top" Width="25" Source="icons8-user-48.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="0,224,0,0" TextWrapping="Wrap" Text="People" VerticalAlignment="Top" Width="89" Foreground="#FFFDFDFD" TextAlignment="Center"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="31.5,263,0,0" VerticalAlignment="Top" Width="25" Source="icons8-centralized-network-50.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="0,291,0,0" TextWrapping="Wrap" Text="Devices" VerticalAlignment="Top" Width="89" Foreground="#FFFDFDFD" TextAlignment="Center"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="31.5,330,0,0" VerticalAlignment="Top" Width="25" Source="icons8-gear-50.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="0,358,0,0" TextWrapping="Wrap" Text="Settings" VerticalAlignment="Top" Width="89" Foreground="#FFFDFDFD" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="137,26,0,0" TextWrapping="Wrap" Text="Thursday, 25.10" VerticalAlignment="Top" Width="133" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="137,44.55,0,0" TextWrapping="Wrap" Text="5:15 PM" VerticalAlignment="Top" Width="133" Foreground="White"/>
+        <Rectangle Fill="#7F050546" HorizontalAlignment="Left" Height="61.55" Margin="637,0,0,0" VerticalAlignment="Top" Width="263"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="660.5,18,0,0" VerticalAlignment="Top" Width="25" Source="icons8-notification-50.png"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="704.5,18,0,0" VerticalAlignment="Top" Width="25" Source="icons8-new-post-48.png"/>
+        <Path Data="M191.5,89.5 L172.5,100.5 172.5,120 191.5,130.5 210.5,120.5 210.5,100 z" HorizontalAlignment="Left" Height="39.921" Margin="843,10,0,0" Stretch="Fill" VerticalAlignment="Top" Width="37">
+            <Path.Fill>
+                <ImageBrush ImageSource="profile-1584566982645-74be0a12137eimage.jpg" Stretch="UniformToFill"/>
+            </Path.Fill>
+        </Path>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="728.5,21,0,0" TextWrapping="Wrap" Text="Rey Mibourne" VerticalAlignment="Top" Width="103.5" Foreground="White" TextAlignment="Right"/>
+        <Ellipse Fill="#FF00FB89" HorizontalAlignment="Left" Height="10" Margin="875,36.5,0,0" VerticalAlignment="Top" Width="10" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+
+        <TextBlock HorizontalAlignment="Left" Height="23.5" Margin="137,86.05,0,0" TextWrapping="Wrap" Text="Dashboard" VerticalAlignment="Top" Width="133" Foreground="White" FontSize="18"/>
+        <Rectangle Fill="#FF050546" HorizontalAlignment="Left" Height="151" Margin="136,126,0,0" VerticalAlignment="Top" Width="334" RadiusY="5" RadiusX="5"/>
+        <Rectangle Fill="#FF050546" HorizontalAlignment="Left" Height="151" Margin="137,307,0,0" VerticalAlignment="Top" Width="334" RadiusY="5" RadiusX="5"/>
+        <Rectangle Fill="#FF050546" HorizontalAlignment="Left" Height="151" Margin="511,126,0,0" VerticalAlignment="Top" Width="334" RadiusY="5" RadiusX="5"/>
+        <Rectangle Fill="#FF050546" HorizontalAlignment="Left" Height="151" Margin="512,307,0,0" VerticalAlignment="Top" Width="334" RadiusY="5" RadiusX="5"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="154,143.05,0,0" TextWrapping="Wrap" Text="Anticipated revenue" VerticalAlignment="Top" Width="133" Foreground="White"/>
+        <Grid Margin="348.993,140.719,527.007,335.281">
+            <Ellipse Fill="#FF04041F" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="24"/>
+            <Image HorizontalAlignment="Left" Height="14.666" Margin="4.664,4.665,0,0" VerticalAlignment="Top" Width="14.667" Source="icons8-back-24.png"/>
+
+        </Grid>
+        <Grid Margin="432.993,140.719,443.007,335.281">
+            <Ellipse Fill="#FF04041F" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="24"/>
+            <Image HorizontalAlignment="Left" Height="14.666" Margin="4.664,4.665,0,0" VerticalAlignment="Top" Width="14.667" Source="icons8-forward-24.png"/>
+
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="376.993,144.05,0,0" TextWrapping="Wrap" Text="This week" VerticalAlignment="Top" Width="54" Foreground="#FFAEABAB"/>
+        <TextBlock HorizontalAlignment="Left" Height="55.95" Margin="137,176.05,0,0" TextWrapping="Wrap" Text="$4,510.00" VerticalAlignment="Top" Width="333" Foreground="White" FontSize="36" TextAlignment="Center"/>
+        <Path Data="M139,276 L189.73054,224 415.26946,224 464,276 z" HorizontalAlignment="Left" Height="52" Margin="136,224,0,0" Stretch="Fill" VerticalAlignment="Top" Width="334">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#00000000" Offset="1"/>
+                    <GradientStop Color="#33FFFFFF"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Grid Margin="163.146,317.921,563.854,144.079">
+            <Path Data="M191.5,89.5 L172.5,100.5 172.5,120 191.5,130.5 210.5,120.5 210.5,100 z" HorizontalAlignment="Left" Height="38" Stretch="Fill" VerticalAlignment="Top" Width="35" Stroke="White">
+                <Path.Fill>
+                    <ImageBrush ImageSource="profile-1568848049665-076688a86813image.jpg" Stretch="UniformToFill"/>
+                </Path.Fill>
+            </Path>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,3.079,0,0" TextWrapping="Wrap" Text="Francisco Haney" VerticalAlignment="Top" Width="133" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,20.079,0,0" TextWrapping="Wrap" Text="2h 45m" VerticalAlignment="Top" Width="133" Foreground="#FF898989"/>
+
+        </Grid>
+        <Grid Margin="163.146,364.921,563.854,97.079">
+            <Path Data="M191.5,89.5 L172.5,100.5 172.5,120 191.5,130.5 210.5,120.5 210.5,100 z" HorizontalAlignment="Left" Height="38" Stretch="Fill" VerticalAlignment="Top" Width="35" Stroke="White">
+                <Path.Fill>
+                    <ImageBrush ImageSource="profile-1475957657208-c6e84c52e50d.jpg" Stretch="UniformToFill"/>
+                </Path.Fill>
+            </Path>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,3.079,0,0" TextWrapping="Wrap" Text="Jal Chibuzo" VerticalAlignment="Top" Width="133" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,20.079,0,0" TextWrapping="Wrap" Text="1h 45m" VerticalAlignment="Top" Width="133" Foreground="#FF898989"/>
+
+        </Grid>
+        <Grid Margin="163.146,410.921,563.854,51.079">
+            <Path Data="M191.5,89.5 L172.5,100.5 172.5,120 191.5,130.5 210.5,120.5 210.5,100 z" HorizontalAlignment="Left" Height="38" Stretch="Fill" VerticalAlignment="Top" Width="35" Stroke="White">
+                <Path.Fill>
+                    <ImageBrush ImageSource="profile-1495427732560-fe5248ad6638.png" Stretch="UniformToFill"/>
+                </Path.Fill>
+            </Path>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,3.079,0,0" TextWrapping="Wrap" Text="Harmen Porter" VerticalAlignment="Top" Width="133" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,20.079,0,0" TextWrapping="Wrap" Text="2h 45m" VerticalAlignment="Top" Width="133" Foreground="#FF898989"/>
+
+        </Grid>
+        <Path Data="M205,360.921 L297,359.921" Fill="White" HorizontalAlignment="Left" Height="1" Margin="205,359.921,0,0" Stretch="Fill" VerticalAlignment="Top" Width="92" Stroke="#33FFFFFF"/>
+        <Path Data="M205,360.921 L297,359.921" Fill="White" HorizontalAlignment="Left" Height="1" Margin="205,407.921,0,0" Stretch="Fill" VerticalAlignment="Top" Width="92" Stroke="#33FFFFFF"/>
+        <Path Data="M205,360.921 L297,359.921" Fill="White" HorizontalAlignment="Left" Height="1" Margin="254,381.921,0,0" Stretch="Fill" VerticalAlignment="Top" Width="118" Stroke="#33FFFFFF" RenderTransformOrigin="0.5,0.5">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <TextBlock HorizontalAlignment="Left" Height="79.921" Margin="318,323,0,0" TextWrapping="Wrap" Text="15" VerticalAlignment="Top" Width="94" Foreground="White" FontSize="72"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="334.146,407,0,0" TextWrapping="Wrap" Text="Active employees" VerticalAlignment="Top" Width="133" Foreground="White"/>
+        <Image HorizontalAlignment="Left" Height="20" Margin="410.993,340.921,0,0" VerticalAlignment="Top" Width="20" Source="icons8-user-48.png"/>
+        <Rectangle Fill="#FF04041F" HorizontalAlignment="Left" Height="19.921" Margin="376.993,429,0,0" VerticalAlignment="Top" Width="70.007" RadiusY="11.007" RadiusX="11.007"/>
+        <TextBlock HorizontalAlignment="Left" Height="10.921" Margin="376.993,431,0,0" TextWrapping="Wrap" Text="SEE ALL" VerticalAlignment="Top" Width="70.007" Foreground="#FFAEABAB" FontSize="10" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="536,143.05,0,0" TextWrapping="Wrap" Text="Today payments" VerticalAlignment="Top" Width="133" Foreground="White"/>
+        <Grid Margin="536,170.05,231,291.95">
+            <Path Data="M191.5,89.5 L172.5,100.5 172.5,120 191.5,130.5 210.5,120.5 210.5,100 z" HorizontalAlignment="Left" Height="38" Stretch="Fill" VerticalAlignment="Top" Width="35" Stroke="White">
+                <Path.Fill>
+                    <ImageBrush ImageSource="profile-1537740391424-86188f82f007.jpg" Stretch="UniformToFill"/>
+                </Path.Fill>
+            </Path>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,3.079,0,0" TextWrapping="Wrap" Text="Daniel Peters" VerticalAlignment="Top" Width="133" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,20.079,0,0" TextWrapping="Wrap" Text="$45.99" VerticalAlignment="Top" Width="133" Foreground="#FF04F794"/>
+
+        </Grid>
+        <Grid Margin="536,218.05,231,243.95">
+            <Path Data="M191.5,89.5 L172.5,100.5 172.5,120 191.5,130.5 210.5,120.5 210.5,100 z" HorizontalAlignment="Left" Height="38" Stretch="Fill" VerticalAlignment="Top" Width="35" Stroke="White">
+                <Path.Fill>
+                    <ImageBrush ImageSource="profile-1584424453298-79dbb67ba8fdimage.jpg" Stretch="UniformToFill"/>
+                </Path.Fill>
+            </Path>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,3.079,0,0" TextWrapping="Wrap" Text="Josh Heart" VerticalAlignment="Top" Width="133" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,20.079,0,0" TextWrapping="Wrap" Text="$45.99" VerticalAlignment="Top" Width="133" Foreground="#FF04F794"/>
+
+        </Grid>
+        <Grid Margin="695,170.05,72,291.95">
+            <Path Data="M191.5,89.5 L172.5,100.5 172.5,120 191.5,130.5 210.5,120.5 210.5,100 z" HorizontalAlignment="Left" Height="38" Stretch="Fill" VerticalAlignment="Top" Width="35" Stroke="White">
+                <Path.Fill>
+                    <ImageBrush ImageSource="profile-fb-1464044835-8daad4c37a12.jpg" Stretch="UniformToFill"/>
+                </Path.Fill>
+            </Path>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,3.079,0,0" TextWrapping="Wrap" Text="Aiden Martin" VerticalAlignment="Top" Width="133" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,20.079,0,0" TextWrapping="Wrap" Text="$25.86" VerticalAlignment="Top" Width="133" Foreground="#FF04F794"/>
+
+        </Grid>
+        <Grid Margin="695,218.05,72,243.95">
+            <Path Data="M191.5,89.5 L172.5,100.5 172.5,120 191.5,130.5 210.5,120.5 210.5,100 z" HorizontalAlignment="Left" Height="38" Stretch="Fill" VerticalAlignment="Top" Width="35" Stroke="White">
+                <Path.Fill>
+                    <ImageBrush ImageSource="profile-fb-1446612973-c373c8d6f1df.jpg" Stretch="UniformToFill"/>
+                </Path.Fill>
+            </Path>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,3.079,0,0" TextWrapping="Wrap" Text="Elnora Pittman" VerticalAlignment="Top" Width="133" Foreground="White"/>
+            <TextBlock HorizontalAlignment="Left" Height="17" Margin="40,20.079,0,0" TextWrapping="Wrap" Text="$54.22" VerticalAlignment="Top" Width="133" Foreground="#FF04F794"/>
+
+        </Grid>
+        <Path Data="M205,360.921 L297,359.921" Fill="White" HorizontalAlignment="Left" Height="1" Margin="580,214,0,0" Stretch="Fill" VerticalAlignment="Top" Width="92" Stroke="#33FFFFFF"/>
+        <Path Data="M205,360.921 L297,359.921" Fill="White" HorizontalAlignment="Left" Height="1" Margin="580,261.05,0,0" Stretch="Fill" VerticalAlignment="Top" Width="92" Stroke="#33FFFFFF"/>
+        <Path Data="M205,360.921 L297,359.921" Fill="White" HorizontalAlignment="Left" Height="1" Margin="736,213.05,0,0" Stretch="Fill" VerticalAlignment="Top" Width="92" Stroke="#33FFFFFF"/>
+        <Path Data="M205,360.921 L297,359.921" Fill="White" HorizontalAlignment="Left" Height="1" Margin="736,261.05,0,0" Stretch="Fill" VerticalAlignment="Top" Width="92" Stroke="#33FFFFFF"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="529,321.05,0,0" TextWrapping="Wrap" Text="Average household usage" VerticalAlignment="Top" Width="156.5" Foreground="White"/>
+        <Grid Margin="772.993,318.719,103.007,157.281">
+            <Ellipse Fill="#FF04041F" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="24"/>
+            <Image HorizontalAlignment="Left" Height="14.666" Margin="4.664,4.665,0,0" VerticalAlignment="Top" Width="14.667" Source="icons8-back-24.png"/>
+
+        </Grid>
+        <Grid Margin="807.993,318.719,68.007,157.281">
+            <Ellipse Fill="#FF04041F" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="24"/>
+            <Image HorizontalAlignment="Left" Height="14.666" Margin="4.664,4.665,0,0" VerticalAlignment="Top" Width="14.667" Source="icons8-forward-24.png"/>
+
+        </Grid>
+        <Image HorizontalAlignment="Left" Height="101.202" Margin="529,347.719,0,0" VerticalAlignment="Top" Width="299" Source="5422857-studiorui-marketing-graphpngpagespeedcetssrenlzh8-studiorui-graph-png-654_254.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="46.871" Margin="565,338.05,0,0" TextWrapping="Wrap" Text="35.01" VerticalAlignment="Top" Width="202.993" Foreground="White" FontSize="36"/>
+
+    </Grid>
+</Window>

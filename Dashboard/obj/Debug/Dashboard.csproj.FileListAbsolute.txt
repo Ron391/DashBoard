@@ -1,0 +1,15 @@
+E:\Projects\XAML\Dashboard\bin\Debug\Dashboard.exe.config
+E:\Projects\XAML\Dashboard\bin\Debug\Dashboard.exe
+E:\Projects\XAML\Dashboard\bin\Debug\Dashboard.pdb
+E:\Projects\XAML\Dashboard\obj\Debug\MainWindow.g.cs
+E:\Projects\XAML\Dashboard\obj\Debug\App.g.cs
+E:\Projects\XAML\Dashboard\obj\Debug\Dashboard_MarkupCompile.cache
+E:\Projects\XAML\Dashboard\obj\Debug\Dashboard_MarkupCompile.lref
+E:\Projects\XAML\Dashboard\obj\Debug\MainWindow.baml
+E:\Projects\XAML\Dashboard\obj\Debug\Dashboard.g.resources
+E:\Projects\XAML\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+E:\Projects\XAML\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+E:\Projects\XAML\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+E:\Projects\XAML\Dashboard\obj\Debug\Dashboard.exe
+E:\Projects\XAML\Dashboard\obj\Debug\Dashboard.pdb
+E:\Projects\XAML\Dashboard\obj\Debug\Dashboard.csprojAssemblyReference.cache
