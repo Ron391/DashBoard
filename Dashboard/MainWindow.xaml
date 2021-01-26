@@ -184,7 +184,7 @@
             <Image HorizontalAlignment="Left" Height="14.666" Margin="4.664,4.665,0,0" VerticalAlignment="Top" Width="14.667" Source="Images/icons8-forward-24.png"/>
 
         </Grid>
-        <Image HorizontalAlignment="Left" Height="101.202" Margin="529,347.719,0,0" VerticalAlignment="Top" Width="299" Source="5422857-studiorui-marketing-graphpngpagespeedcetssrenlzh8-studiorui-graph-png-654_254.png"/>
+        <Image HorizontalAlignment="Left" Height="101.202" Margin="529,347.719,0,0" VerticalAlignment="Top" Width="299" Source="Images/Graph.png"/>
         <TextBlock HorizontalAlignment="Left" Height="46.871" Margin="565,338.05,0,0" TextWrapping="Wrap" Text="35.01" VerticalAlignment="Top" Width="202.993" Foreground="White" FontSize="36"/>
 
     </Grid>
